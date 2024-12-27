@@ -1,0 +1,48 @@
+
+Matching Profile found: FindEarlyDownlevelError - A4CE4FC9-5E10-4BB1-8ECE-3B29EB9D7C52
+SetupDiag version: 1.6.2107.27002
+System Information:
+	Machine Name = W11E-X64
+	Manufacturer = VMware, Inc.
+	Model = VMware7,1
+	HostOSArchitecture = 1033
+	FirmwareType = UEFI
+	BiosReleaseDate = 20200625000000.000000+000
+	BiosVendor = VMW71.00V.16460286.B64.2006250725
+	BiosVersion = VMW71.00V.16460286.B64.2006250725
+	HostOSVersion = 
+	HostOSBuildString = 
+	TargetOSBuildString = 10.0.22000.194 (co_release_svc_prod1.210911-1543)
+	HostOSLanguageId = 
+	HostOSEdition = Enterprise
+	RegisteredAV = Windows Defender
+	FilterDrivers = FileInfo
+	UpgradeStartTime = 9/21/2021 3:38:53 PM
+	UpgradeEndTime = 9/26/2021 12:49:22 PM
+	UpgradeElapsedTime = 4.21:10:29
+	CV = teu5413VlUaFrlMN
+	ReportId = DDDC80C8-10EB-4E7A-BF76-568B68259B26
+
+
+SetupDiag reports early down-level failure found.
+Failure Data:
+Last Operation: SetupPhasePreDownload
+Error: 0xC1900200
+
+Refer to "https://docs.microsoft.com/en-us/windows/desktop/Debug/system-error-codes" for error information.
+
+Last Setup Phase:
+Phase Name: Pre OOBE Boot
+	Phase Started: 9/26/2021 12:47:37 PM
+	Phase Ended: 1/1/0001 12:00:00 AM
+	Phase Time Delta: 00:00:00
+	Completed Successfully? False
+
+
+Last Setup Operation:
+Operation Name: Machine-independent apply
+	Operation Started: 9/26/2021 12:48:41 PM
+	Operation Ended: 1/1/0001 12:00:00 AM
+	Operation Time Delta: 0:00:00:00.0000000
+	Completed Successfully? False
+
